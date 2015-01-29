@@ -1,6 +1,6 @@
 Path
 ====
-PHP port nodejs `path` library
+PHP port Node.js(io.js) [path](https://iojs.org/dist/v1.0.3/doc/api/path.html) library
 
 [![TravisCI](https://travis-ci.org/DsXack/path.svg)](https://travis-ci.org/DsXack/path)
 [![Coverage Status](https://coveralls.io/repos/DsXack/path/badge.svg)](https://coveralls.io/r/DsXack/path)
