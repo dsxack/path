@@ -1,0 +1,38 @@
+<phpunit
+        bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Path">
+            <directory>test/</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <log type="coverage-clover" target="/tmp/coverage.xml"/>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+    </logging>
+    <listeners>
+        <listener class="League\PHPUnitCoverageListener\Listener">
+            <arguments>
+                <array>
+                    <element key="printer">
+                        <object class="League\PHPUnitCoverageListener\Printer\StdOut"/>
+                    </element>
+                    <element key="hook">
+                        <object class="League\PHPUnitCoverageListener\Hook\Travis"/>
+                    </element>
+                    <element key="namespace">
+                        <string>Util</string>
+                    </element>
+                    <element key="repo_token">
+                        <string>TW06pYWAq8g3OyHv0Vl20j3y90OhCSUlT</string>
+                    </element>
+                    <element key="target_url">
+                        <string>https://coveralls.io/api/v1/jobs</string>
+                    </element>
+                    <element key="coverage_dir">
+                        <string>/tmp</string>
+                    </element>
+                </array>
+            </arguments>
+        </listener>
+    </listeners>
+</phpunit>
