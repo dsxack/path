@@ -4,6 +4,10 @@ PHP port nodejs `path` library
 
 [![TravisCI](https://travis-ci.org/DsXack/path.svg)](https://travis-ci.org/DsXack/path)
 [![Coverage Status](https://coveralls.io/repos/DsXack/path/badge.svg)](https://coveralls.io/r/DsXack/path)
+[![Latest Stable Version](https://poser.pugx.org/dsxack/path/v/stable.svg)](https://packagist.org/packages/dsxack/path)
+[![Total Downloads](https://poser.pugx.org/dsxack/path/downloads.svg)](https://packagist.org/packages/dsxack/path)
+[![Latest Unstable Version](https://poser.pugx.org/dsxack/path/v/unstable.svg)](https://packagist.org/packages/dsxack/path)
+[![License](https://poser.pugx.org/dsxack/path/license.svg)](https://packagist.org/packages/dsxack/path)
 
 # Usage
 
