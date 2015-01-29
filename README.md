@@ -1,6 +1,6 @@
 Path
 ====
-PHP port `nodejs` `path` library
+PHP port nodejs `path` library
 
 [![TravisCI](https://travis-ci.org/DsXack/path.svg)](https://travis-ci.org/DsXack/path)
 
